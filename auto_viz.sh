@@ -10,5 +10,5 @@ COUNTRY_PATH='outputs_reduced/reduced.country'
 for tag in ${StringArray[@]}; do
     echo "Saving Occurrences of $tag"
     ./src/visualize.py --input_path="$LANG_PATH" --key="$tag" | head > viz/"$tag.lang"
-    ./src/visualize.py --input_path="$COUNTRY_PATH" --key="$tag" | head > viz/"$tag.lang"
+    ./src/visualize.py --input_path="$COUNTRY_PATH" --key="$tag" | head > viz/"$tag.country"
 done
