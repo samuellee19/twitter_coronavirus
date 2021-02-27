@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 1) Run map.py using run_maps.sh
+
 # Declare an array of hashtag strings
 declare -a StringArray=("#코로나바이러스" "#コロナウイルス" "#冠状病毒" "#covid2019" "#covid-2019" "#covid19" "#covid-19" "#coronavirus" "#corona" "#virus" "#flu" "#sick" "#cough" "#sneeze" "#hospital" "#nurse" "#doctor" )
 
